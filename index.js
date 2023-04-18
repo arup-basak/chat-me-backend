@@ -16,7 +16,7 @@ io.on('connect', (socket) => {
   });
 });
 
-const port = 3001;
+const port = 80;
 
 io.listen(port, () => {
   console.log(`Server started on port ${port}`);
